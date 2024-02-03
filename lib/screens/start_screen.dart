@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:sports_picker/components/bottom_nav_bar.dart';
 
 class StartScreen extends StatelessWidget {
@@ -10,6 +11,10 @@ class StartScreen extends StatelessWidget {
         builder: (ctx) => const BottomNavBar(),
       ),
     );
+  }
+
+  void _exit() {
+    SystemNavigator.pop();
   }
 
   @override
@@ -41,7 +46,7 @@ class StartScreen extends StatelessWidget {
             ),
             const SizedBox(height: 5),
             TextButton(
-              onPressed: () {},
+              onPressed: _exit,
               child: const Text(
                 'Exit',
                 style: TextStyle(
