@@ -120,11 +120,18 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 50,
                   width: double.infinity,
                   decoration: BoxDecoration(
-                    color: const Color(0xFF28b4cc),
+                    color: const Color(0xFFa07cbc),
                     borderRadius: BorderRadius.circular(40),
                   ),
                   child: const Center(
-                    child: Text('Reshuffle'),
+                    child: Text(
+                      'Reshuffle',
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.w500,
+                        color: Colors.white,
+                      ),
+                    ),
                   ),
                 ),
               ),
