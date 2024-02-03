@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:sports_picker/components/bottom_nav_bar.dart';
+import 'package:sports_picker/screens/start_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BottomNavBar(),
+      home: StartScreen(),
     );
   }
 }
