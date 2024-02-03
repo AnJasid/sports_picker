@@ -38,6 +38,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
             vertical: 10,
           ),
           child: GNav(
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
             onTabChange: onTabTapped,
             // backgroundColor: Colors.black,
             color: Colors.black,
