@@ -30,19 +30,20 @@ class _BottomNavBarState extends State<BottomNavBar> {
         ],
       ),
       bottomNavigationBar: Container(
-        color: Colors.black,
+        color: Colors.grey[300],
+        // color: Colors.black,
         child: Padding(
           padding: const EdgeInsets.symmetric(
-            horizontal: 15,
-            vertical: 20,
+            horizontal: 50,
+            vertical: 10,
           ),
           child: GNav(
             onTabChange: onTabTapped,
-            backgroundColor: Colors.black,
-            color: Colors.white,
+            // backgroundColor: Colors.black,
+            color: Colors.black,
             activeColor: Colors.white,
             tabBackgroundColor: Colors.grey.shade800,
-            gap: 8,
+            gap: 3,
             tabs: const [
               GButton(
                 icon: Icons.shuffle_rounded,
