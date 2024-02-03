@@ -15,15 +15,46 @@ class StartScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.white,
+      decoration: const BoxDecoration(
+          gradient: LinearGradient(
+        begin: Alignment.topLeft,
+        end: Alignment.bottomRight,
+        colors: [
+          Color(0xff654ea3),
+          Color(0xffeaafc8),
+        ],
+      )),
       child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            ElevatedButton(
+            TextButton(
               onPressed: () => _goToHomeScreen(context),
-              child: const Text('Start'),
+              child: const Text(
+                'Let\'s Go!',
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.white,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
             ),
+            const SizedBox(height: 5),
+            TextButton(
+              onPressed: () {},
+              child: const Text(
+                'Exit',
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.white,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ),
+            // ElevatedButton(
+            //   onPressed: () => _goToHomeScreen(context),
+            //   child: const Text('Start'),
+            // ),
           ],
         ),
       ),

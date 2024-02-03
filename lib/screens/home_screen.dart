@@ -93,7 +93,6 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           child: Column(
             children: [
-              const Text('Text'),
               const Spacer(flex: 1),
               Container(
                 height: 200,
