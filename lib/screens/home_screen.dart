@@ -3,6 +3,7 @@ import 'dart:async';
 import 'dart:math';
 import 'package:sports_picker/data/hobby_data.dart';
 import 'package:sports_picker/model/hobby_model.dart';
+import 'package:sports_picker/screens/drawer_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -70,12 +71,14 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
         centerTitle: true,
+
         // shape: const RoundedRectangleBorder(
         //   borderRadius: BorderRadius.only(
         //       bottomLeft: Radius.circular(30.0),
         //       bottomRight: Radius.circular(30.0)),
         // ),
       ),
+      drawer: const DrawerScreen(),
       body: Container(
         width: double.infinity,
         height: double.infinity,
