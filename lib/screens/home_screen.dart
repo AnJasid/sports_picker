@@ -82,20 +82,55 @@ class _HomeScreenState extends State<HomeScreen> {
           color: Colors.grey[300],
           // image: DecorationImage(
           //   image: AssetImage('assets/images/bg.png'),
-          //   opacity: 0.06,
+          //   opacity: 0.06,d
           //   fit: BoxFit.cover,
           // ),
         ),
-        child: Column(
-          children: [
-            Container(
-              width: 200,
-              height: 200,
-              decoration: const BoxDecoration(
-                color: Colors.white,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(
+            horizontal: 40,
+            vertical: 30,
+          ),
+          child: Column(
+            children: [
+              const Text('Text'),
+              const Spacer(flex: 1),
+              Container(
+                height: 200,
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  color: const Color(0xfff8f4dc),
+                  borderRadius: BorderRadius.circular(30),
+                ),
+                child: Center(
+                  child: Text(
+                    currentHobby.hobbyTitle,
+                    style: const TextStyle(fontSize: 24.0),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
               ),
-            )
-          ],
+              const Spacer(flex: 2),
+              GestureDetector(
+                onTap: () {
+                  if (!isShuffling) {
+                    startShuffle();
+                  }
+                },
+                child: Container(
+                  height: 50,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    color: const Color(0xFF28b4cc),
+                    borderRadius: BorderRadius.circular(40),
+                  ),
+                  child: const Center(
+                    child: Text('Reshuffle'),
+                  ),
+                ),
+              ),
+            ],
+          ),
         ),
         // child: Center(
         //   child: Padding(
