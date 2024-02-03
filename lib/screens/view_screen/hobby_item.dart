@@ -26,11 +26,21 @@ class HobbyItem extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            Center(
+              child: Container(
+                width: 280,
+                height: 150,
+                decoration: BoxDecoration(
+                  color: Colors.grey[500],
+                ),
+              ),
+            ),
+            const SizedBox(height: 20),
             Text(
               data.hobbyTitle.toString(),
               style: const TextStyle(fontWeight: FontWeight.bold),
             ),
-            const SizedBox(height: 30),
+            const SizedBox(height: 10),
             Text(
               data.hobbyDesc.toString(),
               style: const TextStyle(fontWeight: FontWeight.bold),

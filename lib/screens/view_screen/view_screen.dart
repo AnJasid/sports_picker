@@ -11,7 +11,7 @@ class ViewScreen extends StatelessWidget {
         elevation: 0,
         backgroundColor: const Color.fromARGB(255, 236, 226, 187),
         title: const Text(
-          'View Hobby List',
+          '',
           style: TextStyle(
             fontWeight: FontWeight.bold,
             color: Colors.black,
@@ -22,12 +22,12 @@ class ViewScreen extends StatelessWidget {
           width: double.infinity,
           height: double.infinity,
           decoration: const BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage('assets/images/bg.png'),
-              opacity: 0.06,
-              fit: BoxFit.cover,
-            ),
-          ),
+              // image: DecorationImage(
+              //   image: AssetImage('assets/images/bg.png'),
+              //   opacity: 0.06,
+              //   fit: BoxFit.cover,
+              // ),
+              ),
           child: const HobbyList()),
     );
   }
