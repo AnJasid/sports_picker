@@ -62,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
         elevation: 0,
         // backgroundColor: const Color.fromARGB(255, 236, 226, 187),
         title: const Text(
-          'Home Screen',
+          '',
           style: TextStyle(
             fontWeight: FontWeight.bold,
             color: Colors.black,
