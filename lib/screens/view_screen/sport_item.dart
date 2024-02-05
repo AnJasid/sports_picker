@@ -14,7 +14,7 @@ class SportItem extends StatelessWidget {
     return Container(
       width: double.infinity,
       decoration: BoxDecoration(
-        color: Colors.transparent,
+        color: Colors.white,
         border: Border.all(
           color: const Color(0xFFa07cbc),
           width: 2.0,
