@@ -109,6 +109,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 247, 207, 155),
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 247, 207, 155),
         elevation: 0,
@@ -138,13 +139,17 @@ class _HomeScreenState extends State<HomeScreen> {
         width: double.infinity,
         height: double.infinity,
         decoration: BoxDecoration(
-          color: Colors.grey[300],
-          // image: DecorationImage(
-          //   image: AssetImage('assets/images/bg.png'),
-          //   opacity: 0.06,d
-          //   fit: BoxFit.cover,
-          // ),
-        ),
+            color: Colors.grey[300],
+            borderRadius: const BorderRadius.only(
+              topLeft: Radius.circular(40),
+              topRight: Radius.circular(40),
+            )
+            // image: DecorationImage(
+            //   image: AssetImage('assets/images/bg.png'),
+            //   opacity: 0.06,d
+            //   fit: BoxFit.cover,
+            // ),
+            ),
         child: Container(
           padding: const EdgeInsets.symmetric(
             horizontal: 35,
