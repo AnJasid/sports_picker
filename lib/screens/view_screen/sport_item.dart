@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:sports_picker/model/hobby_model.dart';
 
-class HobbyItem extends StatelessWidget {
-  const HobbyItem({
+class SportItem extends StatelessWidget {
+  const SportItem({
     super.key,
     required this.data,
   });
 
-  final HobbyModel data;
+  final SportModel data;
 
   @override
   Widget build(BuildContext context) {
@@ -37,12 +37,12 @@ class HobbyItem extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             Text(
-              data.hobbyTitle.toString(),
+              data.sportTitle.toString(),
               style: const TextStyle(fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 10),
             Text(
-              data.hobbyDesc.toString(),
+              data.sportDesc.toString(),
               style: const TextStyle(fontWeight: FontWeight.bold),
             ),
           ],
