@@ -30,7 +30,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
         ],
       ),
       bottomNavigationBar: Container(
-        color: Colors.grey[300],
+        color: Colors.black87,
         // color: Colors.black,
         child: Padding(
           padding: const EdgeInsets.symmetric(
