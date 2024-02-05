@@ -13,8 +13,8 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  HobbyModel currentHobby =
-      const HobbyModel(hobbyTitle: 'Press Reshuffle', hobbyDesc: 'decription');
+  SportModel currentHobby = const SportModel(
+      sportTitle: 'Press Reshuffle', sportDesc: 'decription', sportImage: '');
   bool isShuffling = false;
   Timer? shuffleTimer;
 
@@ -33,13 +33,13 @@ class _HomeScreenState extends State<HomeScreen> {
   void shuffleHobby() {
     final random = Random();
     String newHobbyTitle;
-    HobbyModel newHobby;
+    SportModel newHobby;
     do {
       newHobbyTitle =
-          hobbyDetails[random.nextInt(hobbyDetails.length)].hobbyTitle;
+          hobbyDetails[random.nextInt(hobbyDetails.length)].sportTitle;
       newHobby =
-          hobbyDetails.firstWhere((hobby) => hobby.hobbyTitle == newHobbyTitle);
-    } while (newHobbyTitle == currentHobby.hobbyTitle);
+          hobbyDetails.firstWhere((hobby) => hobby.sportTitle == newHobbyTitle);
+    } while (newHobbyTitle == currentHobby.sportTitle);
 
     setState(() {
       currentHobby = newHobby.copyWith(hobbyDesc: '');
@@ -161,7 +161,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 child: Center(
                   child: Text(
-                    currentHobby.hobbyTitle,
+                    currentHobby.sportTitle,
                     style: const TextStyle(fontSize: 24.0),
                     textAlign: TextAlign.center,
                   ),
