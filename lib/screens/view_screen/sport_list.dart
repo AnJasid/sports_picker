@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:sports_picker/data/hobby_data.dart';
-import 'package:sports_picker/screens/view_screen/hobby_item.dart';
+import 'package:sports_picker/screens/view_screen/sport_item.dart';
 
-class HobbyList extends StatelessWidget {
-  const HobbyList({super.key});
+class SportList extends StatelessWidget {
+  const SportList({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class HobbyList extends StatelessWidget {
         vertical: 30,
       ),
       itemCount: hobbyDetails.length,
-      itemBuilder: (BuildContext context, index) => HobbyItem(
+      itemBuilder: (BuildContext context, index) => SportItem(
         data: hobbyDetails[index],
       ),
       separatorBuilder: (BuildContext context, index) =>
