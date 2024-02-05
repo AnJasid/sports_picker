@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sports_picker/model/hobby_model.dart';
+import 'package:sports_picker/model/Sport_model.dart';
 
 class SportItem extends StatelessWidget {
   const SportItem({

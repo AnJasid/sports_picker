@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sports_picker/data/hobby_data.dart';
+import 'package:sports_picker/data/sport_data.dart';
 import 'package:sports_picker/screens/view_screen/sport_item.dart';
 
 class SportList extends StatelessWidget {
@@ -12,9 +12,9 @@ class SportList extends StatelessWidget {
         horizontal: 30,
         vertical: 30,
       ),
-      itemCount: hobbyDetails.length,
+      itemCount: sportDetails.length,
       itemBuilder: (BuildContext context, index) => SportItem(
-        data: hobbyDetails[index],
+        data: sportDetails[index],
       ),
       separatorBuilder: (BuildContext context, index) =>
           const SizedBox(height: 20),

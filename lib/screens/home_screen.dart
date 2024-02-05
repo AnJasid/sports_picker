@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:sports_picker/data/sport_data.dart';
+import 'package:sports_picker/model/Sport_model.dart';
 import 'dart:async';
 import 'dart:math';
-import 'package:sports_picker/data/hobby_data.dart';
-import 'package:sports_picker/model/hobby_model.dart';
 import 'package:sports_picker/screens/start_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -36,9 +36,9 @@ class _HomeScreenState extends State<HomeScreen> {
     SportModel newHobby;
     do {
       newHobbyTitle =
-          hobbyDetails[random.nextInt(hobbyDetails.length)].sportTitle;
+          sportDetails[random.nextInt(sportDetails.length)].sportTitle;
       newHobby =
-          hobbyDetails.firstWhere((hobby) => hobby.sportTitle == newHobbyTitle);
+          sportDetails.firstWhere((hobby) => hobby.sportTitle == newHobbyTitle);
     } while (newHobbyTitle == currentHobby.sportTitle);
 
     setState(() {

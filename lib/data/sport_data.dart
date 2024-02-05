@@ -1,6 +1,6 @@
-import 'package:sports_picker/model/hobby_model.dart';
+import 'package:sports_picker/model/Sport_model.dart';
 
-const hobbyDetails = [
+const sportDetails = [
   SportModel(
     sportImage: '',
     sportTitle: 'Cricket',
