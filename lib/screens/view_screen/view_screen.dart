@@ -6,24 +6,20 @@ class ViewScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-          width: double.infinity,
-          height: double.infinity,
-          decoration: BoxDecoration(
-            color: Colors.grey[300],
-            borderRadius: const BorderRadius.only(
-              topLeft: Radius.circular(40),
-              topRight: Radius.circular(40),
-            ),
-
-            // image: DecorationImage(
-            //   image: AssetImage('assets/images/bg.png'),
-            //   opacity: 0.06,
-            //   fit: BoxFit.cover,
-            // ),
-          ),
-          child: const SportList()),
+    return SafeArea(
+      child: Container(
+        padding: const EdgeInsets.symmetric(
+          horizontal: 10,
+          vertical: 10,
+        ),
+        width: double.infinity,
+        height: double.infinity,
+        decoration: const BoxDecoration(
+          image: DecorationImage(
+              image: AssetImage('assets/viewBG.png'), fit: BoxFit.cover),
+        ),
+        child: const SportList(),
+      ),
     );
   }
 }
