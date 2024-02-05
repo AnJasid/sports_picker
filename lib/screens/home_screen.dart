@@ -110,31 +110,6 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // backgroundColor: const Color.fromARGB(255, 247, 207, 155),
-      // appBar: AppBar(
-      //   backgroundColor: const Color.fromARGB(255, 247, 207, 155),
-      //   elevation: 0,
-      //   title: const Text(
-      //     '',
-      //     style: TextStyle(
-      //       fontWeight: FontWeight.bold,
-      //       color: Colors.black,
-      //     ),
-      //   ),
-      //   centerTitle: true,
-      //   leading: IconButton(
-      //     onPressed: () {
-      //       _showPopupMenu(context);
-      //     },
-      //     icon: const Icon(Icons.menu),
-      //   ),
-      //   // shape: const RoundedRectangleBorder(
-      //   //   borderRadius: BorderRadius.only(
-      //   //       bottomLeft: Radius.circular(30.0),
-      //   //       bottomRight: Radius.circular(30.0)),
-      //   // ),
-      // ),
-      // drawer: const DrawerScreen(),
       body: Container(
         padding: const EdgeInsets.all(40),
         width: double.infinity,
@@ -252,66 +227,3 @@ Widget _buildPopupMenuButton(BuildContext context) {
     ],
   );
 }
-
-//   child: Container(
-//     padding: const EdgeInsets.symmetric(
-//       horizontal: 35,
-//       vertical: 60,
-//     ),
-//     height: double.infinity,
-//     width: double.infinity,
-//     decoration: BoxDecoration(
-//       color: Colors.white,
-//       borderRadius: BorderRadius.circular(40),
-//     ),
-//     child: Column(
-//       mainAxisAlignment: MainAxisAlignment.center,
-//       children: [
-//         Container(
-//           height: 200,
-//           width: double.infinity,
-//           decoration: BoxDecoration(
-//             color: const Color(0xfff8f4dc),
-//             borderRadius: BorderRadius.circular(30),
-//             border: Border.all(
-//               color: const Color.fromARGB(255, 184, 166, 68),
-//               width: 2.0,
-//             ),
-//           ),
-//           child: Center(
-//             child: Text(
-//               currentHobby.sportTitle,
-//               style: const TextStyle(fontSize: 24.0),
-//               textAlign: TextAlign.center,
-//             ),
-//           ),
-//         ),
-//         const Spacer(flex: 2),
-//         GestureDetector(
-//           onTap: () {
-          //   if (!isShuffling) {
-          //     startShuffle();
-          //   }
-          // },
-//           child: Container(
-//             height: 50,
-//             width: double.infinity,
-//             decoration: BoxDecoration(
-//               color: const Color(0xFFa07cbc),
-//               borderRadius: BorderRadius.circular(40),
-//             ),
-//             child: const Center(
-//               child: Text(
-//                 'Shuffle',
-//                 style: TextStyle(
-//                   fontSize: 18,
-//                   fontWeight: FontWeight.w500,
-//                   color: Colors.white,
-//                 ),
-//               ),
-//             ),
-//           ),
-//         ),
-//       ],
-//     ),
-//   ),

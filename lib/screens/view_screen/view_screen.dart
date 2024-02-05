@@ -7,19 +7,6 @@ class ViewScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 247, 207, 155),
-      appBar: AppBar(
-        automaticallyImplyLeading: false,
-        elevation: 0,
-        backgroundColor: const Color.fromARGB(255, 247, 207, 155),
-        title: const Text(
-          '',
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            color: Colors.black,
-          ),
-        ),
-      ),
       body: Container(
           width: double.infinity,
           height: double.infinity,
