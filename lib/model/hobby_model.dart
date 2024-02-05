@@ -1,19 +1,21 @@
-class HobbyModel {
-  final String hobbyTitle;
-  final String hobbyDesc;
+class SportModel {
+  final String sportImage;
+  final String sportTitle;
+  final String sportDesc;
 
-  const HobbyModel({
-    required this.hobbyTitle,
-    required this.hobbyDesc,
+  const SportModel({
+    required this.sportImage,
+    required this.sportTitle,
+    required this.sportDesc,
   });
 
-  HobbyModel copyWith({
+  SportModel copyWith({
     String? hobbyTitle,
     String? hobbyDesc,
   }) {
-    return HobbyModel(
-      hobbyTitle: hobbyTitle ?? this.hobbyTitle,
-      hobbyDesc: hobbyDesc ?? this.hobbyDesc,
-    );
+    return SportModel(
+        sportTitle: hobbyTitle ?? sportTitle,
+        sportDesc: hobbyDesc ?? sportDesc,
+        sportImage: sportImage);
   }
 }
