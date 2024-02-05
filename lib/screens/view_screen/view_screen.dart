@@ -22,13 +22,14 @@ class ViewScreen extends StatelessWidget {
       body: Container(
           width: double.infinity,
           height: double.infinity,
-          decoration: const BoxDecoration(
-              // image: DecorationImage(
-              //   image: AssetImage('assets/images/bg.png'),
-              //   opacity: 0.06,
-              //   fit: BoxFit.cover,
-              // ),
-              ),
+          decoration: BoxDecoration(
+            color: Colors.grey[300],
+            // image: DecorationImage(
+            //   image: AssetImage('assets/images/bg.png'),
+            //   opacity: 0.06,
+            //   fit: BoxFit.cover,
+            // ),
+          ),
           child: const SportList()),
     );
   }
