@@ -44,7 +44,7 @@ class StartScreen extends StatelessWidget {
               ),
               const SizedBox(height: 200),
               AppButton(
-                onTap: () => _goToHomeScreen,
+                onTap: () => _goToHomeScreen(context),
                 btnText: 'Get Started',
               ),
               const SizedBox(height: 30),
