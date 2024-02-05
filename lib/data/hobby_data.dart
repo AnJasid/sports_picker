@@ -2,128 +2,77 @@ import 'package:sports_picker/model/hobby_model.dart';
 
 const hobbyDetails = [
   HobbyModel(
-    hobbyTitle: 'READING',
+    hobbyTitle: 'Cricket',
     hobbyDesc:
-        'Reading books, newspapers, and articles is one of the most common hobbies in every part of the world. Not only does reading inform and educate people, but it also allows them to experience life from the perspectives of other people. It’s also something that does not require specialized skills – you just need to be familiar with a language. To make this a hobby, figure out whether you want to read fiction or nonfiction, and what subjects in particular.',
+        'Cricket is a highly popular sport in India, deeply ingrained in the country\'s culture. Played with a bat and ball, the game involves two teams competing to score runs by hitting the ball and running between wickets. Cricket has three main formats: Test matches, One Day Internationals (ODIs), and Twenty20 (T20) matches. The sport\'s apex in India is the Indian Premier League (IPL), a T20 tournament featuring franchises representing different cities. Cricket transcends boundaries, uniting millions of fans across the nation, and iconic players like Sachin Tendulkar, Virat Kohli, and MS Dhoni have achieved legendary status. The sport\'s influence extends beyond the field, impacting lifestyle, conversations, and national pride, making cricket an integral part of India\'s sporting identity.',
   ),
   HobbyModel(
-    hobbyTitle: 'WATCHING TV SHOWS AND MOVIES',
+    hobbyTitle: 'Field Hockey',
     hobbyDesc:
-        'In our house, we find that we look forward to sitting down to watch the next episode of a great series – something to look forward to at the end of your day. It is truly enjoyable to be swept into another world. And with social media, there are unique ways to connect with other fans of series or documentaries.',
+        'Field hockey is a sport deeply rooted in India\'s sporting history and has garnered significant national acclaim. Played with a small, hard ball and a curved stick, two teams aim to score by hitting the ball into the opponent\'s goal. India has a glorious legacy in field hockey, having won multiple Olympic gold medals during the mid-20th century. The sport\'s popularity remains, with a passionate fan base and ongoing domestic competitions. Despite cricket\'s dominance, field hockey continues to be cherished, especially for its historical significance and the pride associated with India\'s past achievements in international tournaments.',
   ),
   HobbyModel(
-    hobbyTitle: 'GARDENING',
+    hobbyTitle: 'Football (Soccer)',
     hobbyDesc:
-        'Laying out and care of a plot of ground devoted partially or wholly to the growing of plants such as flowers, herbs, or vegetables. You could try out gardening for several reasons: to produce your own food, beautify your lawn, spend time productively, or just relish the freshness of greenery every day.',
+        'Football, known as soccer in some regions, has seen a notable surge in popularity in India. The sport, played with a round ball, involves two teams aiming to score goals by propelling the ball into the opposing team\'s net. India has witnessed an increased interest in football, thanks in part to the Indian Super League (ISL), a professional football league that has elevated the sport\'s status. The ISL has attracted international players and created a fervent following among fans. While cricket remains the dominant sport, football has carved its niche, capturing the hearts of enthusiasts across the nation and fostering a new generation of football lovers. The grassroots development and the emergence of local talent signal a promising future for football in India.',
   ),
   HobbyModel(
-    hobbyTitle: 'PLAYING VIDEO GAMES',
+    hobbyTitle: 'Badminton',
     hobbyDesc:
-        'This is an excellent hobby for the more nerdy and introverted ones among you. However, you will need a good gaming computer to play the best (and latest) games that come out. With exciting adventure-filled video games coming out every year, it is not surprising why this hobby is so common among children and adults alike. You could either play through an RPG by yourself.',
+        'Badminton has become a widely popular sport in India, characterized by its fast-paced and dynamic nature. Played with a shuttlecock, the game involves two or four players who take turns hitting the shuttlecock over the net, aiming to score points. In recent years, India has produced exceptional badminton players who have achieved success on the international stage, contributing to the sport\'s surge in popularity. Notable players like P.V. Sindhu, Saina Nehwal, and Kidambi Srikanth have inspired a growing number of enthusiasts. Badminton has transitioned from a casual backyard game to a professional sport in India, attracting significant attention and fostering a competitive spirit among aspiring players across the country.',
   ),
   HobbyModel(
-    hobbyTitle: 'FISHING',
+    hobbyTitle: 'Kabaddi',
     hobbyDesc:
-        'Fishing is one of those hobbies that are ideal if you want to take a break from the grind of daily routine and give your mind a much-needed rest. Head over to a nearby lake or a calm river, and spend time basking in the beauty and peace of nature.',
+        'Kabaddi, deeply rooted in India\'s cultural heritage, has experienced a remarkable resurgence in popularity, particularly with the advent of the Pro Kabaddi League (PKL). This indigenous sport involves two teams, with a "raider" crossing into the opponent\'s territory to tag as many defenders as possible without taking a breath, all while chanting "kabaddi, kabaddi." The defenders aim to stop the raider and prevent them from returning to their half. The PKL has played a pivotal role in elevating kabaddi\'s status, drawing large audiences and showcasing top talents. The league has not only revitalized interest in the traditional sport but has also created sporting icons, turning kabaddi into a thrilling and widely appreciated spectacle across the nation.',
   ),
   HobbyModel(
-    hobbyTitle: 'WALKING',
+    hobbyTitle: 'Wrestling',
     hobbyDesc:
-        'Walking is an excellent joint-friendly alternative to running which burns calories and improves your cardiovascular health. The best part is that you don’t need a designated place for it – just get out of your home and start walking. Bonus points if you head out into the woods to enjoy nature and even get in some geocaching or bird-watching during your walk.',
+        'Wrestling holds a significant place in India\'s sports landscape, characterized by its rich history and strong cultural ties. The sport involves physical combat where two competitors grapple with each other, aiming to gain control and score points. India has a proud tradition in wrestling, with numerous athletes achieving success in international competitions, including the Olympics. The sport has deep grassroots connections, with many wrestlers emerging from small towns and villages. The country\'s love for wrestling is evident in the passionate following it enjoys, and events like the Indian Wrestling League have further contributed to its popularity. Wrestling not only showcases the strength and skill of its participants but also embodies the resilience and determination that resonate with fans throughout the nation.',
   ),
   HobbyModel(
-    hobbyTitle: 'PLAYING TEAM SPORTS',
+    hobbyTitle: 'Tennis',
     hobbyDesc:
-        'Team sports like football, cricket, basketball, baseball, and hockey provide an excellent way for people to improve their physical health while having loads of fun at the same time. As long as you have a group of like-minded friends who enjoy the same sport as you, you can make it into a hobby by getting together and playing every day.',
+        'Tennis has found a strong and growing fan base in India, propelled by the success of Indian players on the international stage and increased accessibility to the sport. Played with a racket and a ball, tennis involves singles or doubles matches where players aim to score points by hitting the ball over the net and into the opponent\'s court. India has produced tennis legends like Leander Paes, Mahesh Bhupathi, and Sania Mirza, who have achieved Grand Slam victories and brought global recognition to Indian tennis. The sport is popular not only for its competitive nature but also for its inclusive appeal, encouraging participation across age groups and skill levels. Tennis tournaments, both domestic and international, captivate audiences and contribute to the sport\'s rising popularity across the country.',
   ),
   HobbyModel(
-    hobbyTitle: 'BOARD GAMES',
+    hobbyTitle: 'Athletics',
     hobbyDesc:
-        'Board games are tabletop games that typically use pieces moved or placed on a pre-marked board (playing surface) and often include elements of table, card, role-playing, and miniatures games as well. If you love the social and competitive nature of playing cards, you are also likely to enjoy board games as a hobby.',
+        'Athletics, encompassing a wide range of track and field events, holds a special place in India\'s sporting landscape. The sport involves disciplines like running, jumping, throwing, and combined events. India has produced notable athletes who have excelled in international competitions, showcasing prowess in events such as sprinting, long-distance running, javelin throw, and more. While cricket dominates the sports scene, athletics has gained prominence with athletes like Milkha Singh, P.T. Usha, and Neeraj Chopra making significant contributions. The sport has a grassroots presence, with schools and colleges promoting track and field events. Athletics embodies the spirit of competition and athleticism, contributing to India\'s representation in the global sporting arena',
   ),
   HobbyModel(
-    hobbyTitle: 'WRITING',
+    hobbyTitle: 'Boxing',
     hobbyDesc:
-        'Writing can come under different genres but is found as a common hobby all over the world. People write in their diaries, write articles and blogs, and some even write entire books. It is an incredibly creative hobby that hones your thinking skills and helps you attain clarity of thought and action.',
+        'Boxing has emerged as a formidable and widely followed sport in India, gaining popularity for its raw intensity and individual brilliance. In boxing, two competitors square off, aiming to score points by landing punches on each other while avoiding their opponent\'s strikes. India has produced accomplished boxers who have made their mark in various weight categories on the international stage. The sport\'s rising popularity is attributed to the success of Indian boxers like Mary Kom, Vijender Singh, and Shiva Thapa, who have not only achieved accolades but have also inspired a new generation of aspiring pugilists. Boxing has transcended traditional boundaries, capturing the imagination of fans and contributing significantly to India\'s presence in global sporting events.',
   ),
   HobbyModel(
-    hobbyTitle: 'VOLUNTEER WORK',
+    hobbyTitle: 'Shooting',
     hobbyDesc:
-        'Volunteer work can involve raising funds for someone in your neighborhood who is struggling financially or organizing a clean-up or cloth donation drive with a group of friends. This is one of the most meaningful and satisfying hobbies you could integrate into your life.',
+        'Shooting has gained prominence as a precision sport in India, marked by meticulous aim, focus, and accuracy. The sport involves competitors using firearms to hit targets with precision, testing their marksmanship skills across various disciplines. India has witnessed notable success in shooting, with athletes like Abhinav Bindra, Gagan Narang, and Anjali Bhagwat achieving Olympic and World Championship medals. The sport has attracted attention for its technical nuances and mental discipline. Shooting has become a popular pursuit among Indian athletes, with an increasing number of enthusiasts participating in competitions at the national and international levels. The success of Indian shooters has not only brought accolades but has also contributed to the sport\'s growing popularity and recognition in the country.',
   ),
   HobbyModel(
-    hobbyTitle: 'DANCING',
+    hobbyTitle: 'Chess',
     hobbyDesc:
-        'Although it does not get the recognition it deserves, dancing is nothing less than a form of art. Requiring a high level of mobility and flexibility, dancing can serve as a form of exercise and meditation that transports the dancer away from the binding realities of everyday life.',
+        'Chess is a cerebral and strategic sport that has captured the imagination of enthusiasts in India, transcending age and background. Played on a checkered board, the game involves two players maneuvering pieces with distinct moves to outsmart and checkmate their opponent\'s king. India has produced several Grandmasters, including Viswanathan Anand, who became a World Chess Champion, elevating the country\'s status in the chess world. Chess is widely played in schools, colleges, and communities, fostering critical thinking, concentration, and strategic planning. The sport\'s popularity extends beyond competitive play, with numerous chess clubs, events, and online platforms contributing to a thriving chess culture in India. Chess embodies the essence of intellect and has become a symbol of strategic prowess and mental acuity in the country.',
   ),
   HobbyModel(
-    hobbyTitle: 'PAINTING',
-    hobbyDesc:
-        'There is something special about mixing a bunch of colors in unique ways on a canvas to produce a work of art that mesmerizes viewers. If you ever could translate your vivid imagination onto a piece of paper or a canvas, then painting is exactly the hobby you should take up.',
+    hobbyTitle: 'Weightlifting',
+    hobbyDesc: '',
   ),
   HobbyModel(
-    hobbyTitle: 'COOKING',
+    hobbyTitle: 'Basketball',
     hobbyDesc:
-        'Cooking is more than just a way of making food to consume. If you explore cuisines like the Asian, Mediterranean, Indian, and Continental cuisines, you will find it to be just another form of art. Before long, you’ll be engrossed in trying out new recipes and experimenting with new ingredients. All you need is a good sense of ingredients and a sense of comfort in the kitchen. If that’s you, then cooking is a hobby that will feel almost natural.',
+        'Weightlifting, a discipline demanding strength, technique, and precision, has gained recognition and a dedicated following in India. In weightlifting, athletes compete to lift maximum weights in two main categories: the snatch and the clean and jerk. India has produced notable weightlifters who have excelled in international competitions, winning medals and establishing records. The sport has a grassroots presence, with many lifters emerging from diverse backgrounds, showcasing their prowess at the national and global levels. Weightlifting has garnered attention for its raw power and displays of physical strength, contributing to its popularity among fans and fitness enthusiasts alike. The success of Indian weightlifters continues to inspire a new generation, making weightlifting a significant and respected sport within the country\'s sporting landscape.',
   ),
   HobbyModel(
-    hobbyTitle: 'BICYCLING',
+    hobbyTitle: 'Golf',
     hobbyDesc:
-        'Cycles have the unique advantage of not covering you up from all sides. You get the advantage of traveling at a greater speed than walking all the while enjoying the fresh air and taking in your surroundings. It is quite easy to make a hobby out of exploring new places on your bicycle.',
+        'Golf, known for its precision and elegance, has carved a niche for itself in India, attracting enthusiasts and players from various walks of life. Played on lush greens with the aim of completing a course in the fewest strokes possible, golf has seen a surge in popularity with the emergence of talented Indian golfers. Players like Jeev Milkha Singh, Anirban Lahiri, and Aditi Ashok have represented India on the international golfing stage, bringing recognition to the country. Golf courses, both traditional and modern, are spread across the nation, offering a serene backdrop for the sport. Golf has become more accessible, with a growing number of golf clubs and tournaments fostering interest and participation. The sport embodies a unique blend of skill, strategy, and a connection with nature, making it an increasingly popular choice among sports enthusiasts in India.',
   ),
   HobbyModel(
-    hobbyTitle: 'HOUSEWORK',
+    hobbyTitle: 'Table Tennis',
     hobbyDesc:
-        'It may come as a surprise, but housework is indeed one of the most common hobbies in the world. Many people derive a sense of comfort and peace from fixing things around their house, doing the laundry, cleaning things up, and so on. If you’re someone who does not like to go outdoors much, this is a hobby that will suit you well.',
-  ),
-  HobbyModel(
-    hobbyTitle: 'CHURCH ACTIVITIES',
-    hobbyDesc:
-        'Devout Christians find a sense of belonging and comfort when they go to the Church. They get the opportunity to study their religion more, engage with their community, and participate in meaningful activities. So if you’re a religious Christian in search of a hobby, you should consider going back to the center of your faith, i.e. the Church.',
-  ),
-  HobbyModel(
-    hobbyTitle: 'CALLIGRAPHY',
-    hobbyDesc:
-        'Calligraphy is the art of producing decorative handwriting or lettering with a pen or brush. This skill could be used to provide personal, handwritten notes /thank you notes or invitations for an event. Like coloring or painting, many find spending time with calligraphy to be very therapeutic. You may be looking for a hobby as a break from screen time. Learning the art of calligraphy is a hobby that many find calming and constructive.',
-  ),
-  HobbyModel(
-    hobbyTitle: 'SHOPPING',
-    hobbyDesc:
-        'Thousands of people regularly flock over to malls for shopping. Some buy clothes and footwear, while others are on the lookout for watches and digital gadgets. Whatever your taste, you can make this a hobby for you and your family. The only catch here is that the activity involves buying stuff regularly, so this is only feasible if you have that kind of money to spend.',
-  ),
-  HobbyModel(
-    hobbyTitle: 'PHOTOGRAPHY',
-    hobbyDesc:
-        'Photography is a hobby that offers so many possibilities for creative expression and technical expertise. Age is not a barrier to learning a new hobby, and if all you have is the camera on your phone, that’s okay; you can start with that. Photography adds so much value to our lives – by recording special events, people, and places, while also helping us learn and grow as people. It allows you to share your life and experiences in meaningful ways, and it allows you to engage and have fun with other people.',
-  ),
-  HobbyModel(
-    hobbyTitle: 'SEWING',
-    hobbyDesc:
-        'Explore your creative side with one of the world’s most popular craft hobbies. Being able to sew has many benefits, from making your own clothing to creating a craft business. It’s also a great way to spend time with your children by teaching them.',
-  ),
-  HobbyModel(
-    hobbyTitle: 'COLLECTING',
-    hobbyDesc:
-        'Collecting as a hobby is a fun and easy thing for almost anyone to start. Anybody can enjoy the fun of building up a collection of different things. There are a lot of great benefits to becoming a collector – and best of all no special skills or tools required. Seeking, locating, acquiring, organizing, cataloging, displaying, storing, and maintaining items that are of interest to an individual collector.',
-  ),
-  HobbyModel(
-    hobbyTitle: 'BAKING',
-    hobbyDesc:
-        'A method of preparing food that uses dry heat, typically in an oven, but can also be done in hot ashes, or on hot stones. The most common baked item is bread but many other types of foods are baked. Heat is gradually transferred from the surface of cakes, cookies, and breads to their center.',
-  ),
-  HobbyModel(
-    hobbyTitle: 'LISTENING TO MUSIC',
-    hobbyDesc:
-        'Music is a hobby that converts to a passion and emerges as the melody of life itself. It is emotive, approachable and can be personalized to suit your moods and persona. Use it as a creative input or as the expression of your many moods and emotions.',
-  ),
-  HobbyModel(
-    hobbyTitle: 'BLOGGING',
-    hobbyDesc:
-        'Exercises your sense of creativity and makes you feel better about opening up to others. Hence, a blog can be your journal for exploring yourself. You can connect with other hobby bloggers or your readers from all over the world.',
-  ),
-  HobbyModel(
-    hobbyTitle: 'SINGING',
-    hobbyDesc:
-        'It allows you to use your body\'s own natural instrument, the vocal cords, which are a magnificent product of evolution that can be controlled and contorted to make a wide variety of sounds.',
+        'Table tennis, a fast-paced and dynamic sport, has gained significant popularity in India. Played on a rectangular table with a net across the middle, the game involves players using paddles to hit a lightweight ball back and forth. India has produced accomplished table tennis players who have excelled at the national and international levels. The sport has a widespread appeal, with enthusiasts playing in schools, colleges, and community centers. With the emergence of top players like Achanta Sharath Kamal and Manika Batra, table tennis has garnered attention and a growing fan base. The sport\'s accessibility, quick pace, and tactical nature contribute to its popularity, making it a favorite among players of all ages and skill levels in India.',
   ),
 ];
