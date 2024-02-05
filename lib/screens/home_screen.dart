@@ -14,7 +14,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   SportModel currentHobby = const SportModel(
-      sportTitle: 'Press Reshuffle', sportDesc: 'decription', sportImage: '');
+      sportTitle: 'Press Shuffle', sportDesc: '', sportImage: '');
   bool isShuffling = false;
   Timer? shuffleTimer;
 
@@ -134,6 +134,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       // drawer: const DrawerScreen(),
       body: Container(
+        padding: const EdgeInsets.all(40),
         width: double.infinity,
         height: double.infinity,
         decoration: BoxDecoration(
@@ -144,20 +145,30 @@ class _HomeScreenState extends State<HomeScreen> {
           //   fit: BoxFit.cover,
           // ),
         ),
-        child: Padding(
+        child: Container(
           padding: const EdgeInsets.symmetric(
-            horizontal: 40,
-            vertical: 30,
+            horizontal: 35,
+            vertical: 60,
+          ),
+          height: double.infinity,
+          width: double.infinity,
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(40),
           ),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Spacer(flex: 1),
               Container(
                 height: 200,
                 width: double.infinity,
                 decoration: BoxDecoration(
                   color: const Color(0xfff8f4dc),
                   borderRadius: BorderRadius.circular(30),
+                  border: Border.all(
+                    color: const Color.fromARGB(255, 184, 166, 68),
+                    width: 2.0,
+                  ),
                 ),
                 child: Center(
                   child: Text(
@@ -183,7 +194,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   child: const Center(
                     child: Text(
-                      'Reshuffle',
+                      'Shuffle',
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.w500,
