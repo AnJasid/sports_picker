@@ -30,9 +30,10 @@ class SportItem extends StatelessWidget {
               child: Container(
                 width: 280,
                 height: 150,
-                decoration: BoxDecoration(
-                  color: Colors.grey[500],
-                ),
+                // decoration: BoxDecoration(
+                //   color: Colors.grey[500],
+                // ),
+                child: Image.asset(data.sportImage),
               ),
             ),
             const SizedBox(height: 20),
