@@ -7,10 +7,11 @@ class ViewScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 247, 207, 155),
       appBar: AppBar(
         automaticallyImplyLeading: false,
         elevation: 0,
-        backgroundColor: const Color.fromARGB(255, 236, 226, 187),
+        backgroundColor: const Color.fromARGB(255, 247, 207, 155),
         title: const Text(
           '',
           style: TextStyle(
@@ -24,6 +25,11 @@ class ViewScreen extends StatelessWidget {
           height: double.infinity,
           decoration: BoxDecoration(
             color: Colors.grey[300],
+            borderRadius: const BorderRadius.only(
+              topLeft: Radius.circular(40),
+              topRight: Radius.circular(40),
+            ),
+
             // image: DecorationImage(
             //   image: AssetImage('assets/images/bg.png'),
             //   opacity: 0.06,
