@@ -29,7 +29,7 @@ class StartScreen extends StatelessWidget {
         width: double.infinity,
         decoration: const BoxDecoration(
           image: DecorationImage(
-              image: AssetImage('assets/BG.png'), fit: BoxFit.cover),
+              image: AssetImage('assets/startBG.png'), fit: BoxFit.cover),
         ),
         child: Center(
           child: Column(
