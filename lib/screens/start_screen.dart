@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:sports_picker/components/bottom_nav_bar.dart';
+import 'package:sports_picker/widgets.dart/app_button.dart';
 
 class StartScreen extends StatelessWidget {
   const StartScreen({super.key});
@@ -21,6 +22,9 @@ class StartScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        padding: EdgeInsets.symmetric(
+          horizontal: 30,
+        ),
         height: double.infinity,
         width: double.infinity,
         decoration: const BoxDecoration(
@@ -31,27 +35,23 @@ class StartScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              GestureDetector(
-                onTap: () => _goToHomeScreen(context),
-                child: Container(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 30,
-                    vertical: 5,
-                  ),
-                  decoration: BoxDecoration(
-                    color: const Color(0xff28341c),
-                    borderRadius: BorderRadius.circular(30),
-                  ),
-                  child: const Text(
-                    'Get Started',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 20,
-                    ),
-                  ),
+              Align(
+                alignment: Alignment.topLeft,
+                child: Image.asset(
+                  'assets/slogan.png',
+                  width: 320,
                 ),
               ),
+              const SizedBox(height: 200),
+              AppButton(
+                onTap: () => _goToHomeScreen,
+                btnText: 'Get Started',
+              ),
               const SizedBox(height: 30),
+              AppButton(
+                onTap: _exit,
+                btnText: 'Exit',
+              ),
             ],
           ),
         ),
