@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sports_picker/screens/view_screen/hobby_list.dart';
+import 'package:sports_picker/screens/view_screen/sport_list.dart';
 
 class ViewScreen extends StatelessWidget {
   const ViewScreen({super.key});
@@ -29,7 +29,7 @@ class ViewScreen extends StatelessWidget {
               //   fit: BoxFit.cover,
               // ),
               ),
-          child: const HobbyList()),
+          child: const SportList()),
     );
   }
 }
