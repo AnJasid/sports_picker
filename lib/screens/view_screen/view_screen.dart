@@ -28,7 +28,7 @@ class ViewScreen extends StatelessWidget {
           children: [
             const SizedBox(height: 50),
             const Text(
-              'Popular Sports in India',
+              'Sport Lists',
               style: TextStyle(
                 fontSize: 25,
                 fontWeight: FontWeight.w500,
