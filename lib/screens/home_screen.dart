@@ -129,7 +129,7 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             const Spacer(flex: 1),
             const Text(
-              'Shuffle Sports',
+              'Sports Picker',
               style: TextStyle(
                 fontSize: 25,
                 fontWeight: FontWeight.w500,
