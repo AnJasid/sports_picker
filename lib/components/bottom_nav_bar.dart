@@ -34,11 +34,11 @@ class _BottomNavBarState extends State<BottomNavBar> {
         // color: Colors.black,
         child: Padding(
           padding: const EdgeInsets.symmetric(
-            horizontal: 50,
+            horizontal: 20,
             vertical: 10,
           ),
           child: GNav(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
             onTabChange: onTabTapped,
             // backgroundColor: Colors.black,
             color: Colors.white,
