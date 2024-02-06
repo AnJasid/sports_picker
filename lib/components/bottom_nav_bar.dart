@@ -41,7 +41,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
             onTabChange: onTabTapped,
             // backgroundColor: Colors.black,
-            color: Colors.black,
+            color: Colors.white,
             activeColor: Colors.white,
             tabBackgroundColor: Colors.grey.shade800,
             gap: 3,
