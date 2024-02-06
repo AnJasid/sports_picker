@@ -48,9 +48,17 @@ class AboutScreen extends StatelessWidget {
                   color: const Color(0xfffefae0),
                   borderRadius: BorderRadius.circular(30),
                 ),
-                child: const Text(
-                  '10Circ - Sport Opt Picker is a mobile application designed to present a comprehensive catalogue of information regarding various popular sports in India. Additionally, this application boasts a distinctive feature aimed at facilitating users in selecting a sport suited to their interests, providing opportunities for leisure and potential hobby pursuits. The current iteration of the app is version 1.0.0.',
-                  textAlign: TextAlign.center,
+                child: const Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      '10Circ - Sport Opt Picker is a mobile application designed to present a comprehensive catalogue of information regarding various popular sports in India. Additionally, this application boasts a distinctive feature aimed at facilitating users in selecting a sport suited to their interests, providing opportunities for leisure and potential hobby pursuits.',
+                    ),
+                    SizedBox(height: 20),
+                    Text(
+                      'Version 1.0.0',
+                    ),
+                  ],
                 ),
               ),
             ),
