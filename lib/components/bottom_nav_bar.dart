@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
+import 'package:sports_picker/screens/about_screen.dart';
 import 'package:sports_picker/screens/home_screen.dart';
 import 'package:sports_picker/screens/view_screen/view_screen.dart';
 
@@ -27,6 +28,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
         children: const [
           HomeScreen(),
           ViewScreen(),
+          AboutScreen(),
         ],
       ),
       bottomNavigationBar: Container(
