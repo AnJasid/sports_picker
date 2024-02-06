@@ -19,9 +19,13 @@ class SportItem extends StatelessWidget {
       width: double.infinity,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(30),
-        image: const DecorationImage(
-          image: AssetImage('assets/squareBG2.png'),
-          fit: BoxFit.cover,
+        gradient: const LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [
+            Color(0xfffefae0),
+            Color(0xffdda15e),
+          ],
         ),
       ),
       child: Column(
