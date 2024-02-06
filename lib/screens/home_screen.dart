@@ -109,8 +109,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
+    return SafeArea(
+      child: Container(
         padding: const EdgeInsets.all(40),
         width: double.infinity,
         height: double.infinity,
@@ -187,43 +187,4 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
-}
-
-Widget _buildPopupMenuButton(BuildContext context) {
-  return PopupMenuButton<String>(
-    itemBuilder: (context) => [
-      const PopupMenuItem(
-        value: 'home',
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(Icons.home),
-            SizedBox(width: 6),
-            Text(
-              'Home',
-              style: TextStyle(
-                fontSize: 18,
-              ),
-            ),
-          ],
-        ),
-      ),
-      const PopupMenuItem(
-        value: 'about',
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(Icons.home),
-            SizedBox(width: 6),
-            Text(
-              'About',
-              style: TextStyle(
-                fontSize: 18,
-              ),
-            ),
-          ],
-        ),
-      ),
-    ],
-  );
 }
