@@ -54,6 +54,10 @@ class _BottomNavBarState extends State<BottomNavBar> {
                 icon: Icons.view_headline_rounded,
                 text: 'View',
               ),
+              GButton(
+                icon: Icons.info_outline_rounded,
+                text: 'About',
+              ),
             ],
           ),
         ),
