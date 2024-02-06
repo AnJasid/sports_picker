@@ -26,7 +26,7 @@ class ViewScreen extends StatelessWidget {
       child: Center(
         child: Column(
           children: [
-            const SizedBox(height: 80),
+            const SizedBox(height: 60),
             const Text(
               'Popular Sports in India',
               style: TextStyle(
@@ -34,12 +34,12 @@ class ViewScreen extends StatelessWidget {
                 fontWeight: FontWeight.w500,
               ),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 15),
             Container(
               width: double.infinity,
-              height: 600,
+              height: 500,
               child: const SportList(),
-            )
+            ),
           ],
         ),
       ),
