@@ -17,17 +17,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
             padding: EdgeInsets.all(20),
             decoration: BoxDecoration(color: Color(0xff206464)),
             child: Row(
-              children: [
-                // Icon(
-                //   Icons.home,
-                //   size: 48,
-                //   color: Colors.black,
-                // ),
-                // SizedBox(width: 18),
-                // Text(
-                //   '',
-                // ),
-              ],
+              children: [],
             ),
           ),
           ListTile(
