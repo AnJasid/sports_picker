@@ -64,45 +64,5 @@ class SportItem extends StatelessWidget {
         ],
       ),
     );
-
-    // Container(
-    //   width: double.infinity,
-    //   decoration: BoxDecoration(
-    //     color: Colors.white,
-    //     border: Border.all(
-    //       color: const Color(0xFFa07cbc),
-    //       width: 2.0,
-    //     ),
-    //     borderRadius: BorderRadius.circular(10),
-    //   ),
-    //   child: Padding(
-    //     padding: const EdgeInsets.all(15.0),
-    //     child: Column(
-    //       crossAxisAlignment: CrossAxisAlignment.start,
-    //       children: [
-    //         Center(
-    //           child: Container(
-    //             width: 280,
-    //             height: 150,
-    //             // decoration: BoxDecoration(
-    //             //   color: Colors.grey[500],
-    //             // ),
-    //             child: Image.asset(data.sportImage),
-    //           ),
-    //         ),
-    // const SizedBox(height: 20),
-    // Text(
-    //   data.sportTitle.toString(),
-    //   style: const TextStyle(fontWeight: FontWeight.bold),
-    // ),
-    // const SizedBox(height: 10),
-    // Text(
-    //   data.sportDesc.toString(),
-    //   style: const TextStyle(fontWeight: FontWeight.bold),
-    // ),
-    //       ],
-    //     ),
-    //   ),
-    // );
   }
 }

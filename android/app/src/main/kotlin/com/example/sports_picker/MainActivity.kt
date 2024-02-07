@@ -1,4 +1,4 @@
-package com.example.sports_picker
+package com.tencircfuns.sportspicker
 
 import io.flutter.embedding.android.FlutterActivity
 
